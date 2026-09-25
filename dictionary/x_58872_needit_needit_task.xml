@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+    <element audit="true" db_object_id="cb5a5c0b479f4310395bae4b116d4399" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+        <element label="TestField" max_length="40" name="testfield" type="string"/>
         <element label="NeedIt" max_length="32" name="u_needit" reference="x_58872_needit_needit" type="reference"/>
     </element>
 </database>
